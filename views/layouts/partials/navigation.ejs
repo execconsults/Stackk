@@ -1,142 +1,90 @@
-
-<style>
-  .active{
-    --tw-text-opacity:1;
-    color: rgb(29 78 216 / var(--tw-text-opacity));
-  }
-  @media only screen and (max-width: 600px) {
-
-  .tch{
-    display: none;
-  }
-}
-</style>
-<header class="bg-black hidden px-4 sm:px-6 lg:px-8">
-  <nav class="container mx-auto flex items-center justify-between h-16">
-    <a href="/" class="flex items-center">
-      <img class="" style="width: 15em;" src="/imgs/logo/stack.png" alt="">
-      <!-- <span class="font-bold text-4xl text-gray-100">STAKKFIN</span> -->
-    </a>
-    <ul class="flex items-center space-x-5">
-      <li><a href="/about-us" class=" text-lg ml-2 text-gray-300 hover:text-cyan-500 transition-colors">About Us</a></li>
-      <li><a href="/services" class=" text-lg ml-2 text-gray-300 hover:text-[#6cbcc4] transition-colors">Services</a></li>
-      <li><a href="/resources" class=" text-lg ml-2 text-gray-300 hover:text-[#6cbcc4] transition-colors">Resources</a></li>
-      <li><a href="/shop" class=" text-lg ml-2 text-gray-300 hover:text-[#6cbcc4] transition-colors">Shop</a></li>
-      <li><a href="/contact-us" class=" text-lg ml-2 text-gray-300 hover:text-[#6cbcc4] transition-colors">Contact</a></li>
-      <a type="button" class="text-white bg-gradient-to-r from-[#6cbcc4] via-blue-[#6cbcc4] to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Login</a>
-
-    </ul>
-    
-  </nav>
-</header>
-
-
-<nav class="bg-black border-gray-200 ">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img  src="/imgs/logo/stack.png" class="h-11" alt="Flowbite Logo" />
-    </a>
-    <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-multi-level" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
-      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md: md:" style="background: transparent;">
-        <li>
-          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a>
-        </li>
-        <li>
-            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto >Dropdown <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-  </svg></button>
-            <!-- Dropdown menu -->
-            <div id="dropdownNavbar" class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-44 ">
-                <ul style="background-color: transparent;"  class="py-2 text-sm text-gray-700 bg-transparent " aria-labelledby="dropdownLargeButton">
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-white">Dashboard</a>
-                  </li>
-                  <li aria-labelledby="dropdownNavbarLink">
-                    <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 text-white">Dropdown<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-  </svg></button>
-                    <div id="doubleDropdown" class="z-10 hidden divide-y divide-gray-100 rounded-lg shadow w-44 ">
-                        <ul class="py-2 text-sm text-gray-700 " style="background-color: transparent;" aria-labelledby="doubleDropdownButton">
+        <!-- Site header -->
+        <header class="ca5ue ca0gw cverl">
+          <div class="co3q6 csm51 csya4 ccyhi">
+              <div class="cm7bi c2sao c4jjw c4agq cm0fl">
+      
+                  <!-- Site branding -->
+                  <div class="ci0vw">
+                      <!-- Logo -->
+                      <a class="cwban" href="/" aria-label="Cruip">
+                          <img class="cbdyn" src="/imgs/stacklogo.png" style="width: 13em;" alt="Stellar">
+                      </a>
+                  </div>
+      
+                  <!-- Desktop navigation --> 
+                  <nav class="cp37h cjnbw ch9bk">
+      
+                      <!-- Desktop menu links -->
+                      <ul class="csqqr c2sao cbsu6 c4agq c9wgl">
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-white ">Overview</a>
+                              <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="/">Home</a>
                           </li>
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-white ">My downloads</a>
+                              <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="/">Course</a>
                           </li>
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-white ">Billing</a>
+                              <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="/">Articles</a>
                           </li>
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-white ">Rewards</a>
+                              <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="/">Service</a>
                           </li>
-                        </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-white">Earnings</a>
-                  </li>
-                </ul>
-                <div class="py-1">
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 text-white ">Sign out</a>
-                </div>
-            </div>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Plan&Pricing</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Pricing</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-<nav class="hidden border-gray-200 ">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-      <img  src="/imgs/logo/stack.png" class="h-8" alt="Flowbite Logo" />
-  </a>
-  <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center ">Get started</button>
-      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-cta" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-  </div>
-  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:">
-      <li>
-        <a href="#" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 " aria-current="page">Home</a>
-      </li>
-      <li>
-        <a href="#" class="block py-2 px-3 md:p-0 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700  ">Articles</a>
-      </li>
-      <li>
-        <a href="#" class="block py-2 px-3 md:p-0 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700  ">Plan&Pricing</a>
-      </li>
-      <li>
-        <a href="#" class="block py-2 px-3 md:p-0 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700  ">Lessons</a>
-      </li>
-      <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Login</button>
-
-    </ul>
-
-  </div>
-  </div>
-</nav>
-
-
-
+                          <li>
+                              <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="/">About US</a>
+                          </li>
+                      </ul>
+      
+                  </nav>
+      
+                  <!-- Desktop sign in links -->
+                  <ul class="c2sao cq21c ci0vw c4agq">
+                      <li>
+                          <a class="cz30y c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj cvdvu" href="signin.html">Sign in</a>
+                      </li>
+                      <li class="cci1o">
+                          <a class="c3d7q c272e cegg3 c8isz c0z2s c1mpe ccqfq cit3o cx3jz cgi3a cqxsj c27r3 cfl4k ca0gw cq2yg" href="signup.html">
+                              <span class="c2sao cwban c27r3">
+                                  Sign up <span class="c9pof c406y cxxyq c3fbv cx3jz cgi3a cqzh1">-&gt;</span>
+                              </span>
+                          </a>
+                      </li>
+                  </ul>
+              
+                  <!-- Mobile menu -->
+                  <div class="c2sao c89zz cwap3 c4agq" x-data="{ expanded: false }">
+      
+                      <!-- Hamburger button -->
+                      <button class="c381v" :class="{ 'active': expanded }" @click.stop="expanded = !expanded" aria-controls="mobile-nav" :aria-expanded="expanded">
+                          <span class="cmmna">Menu</span>
+                          <svg class="c0z2s cit3o cm1cr cx3jz cgi3a cqxsj csq2q c7vsq" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                              <rect y="2" width="20" height="2" rx="1"></rect>
+                              <rect y="9" width="20" height="2" rx="1"></rect>
+                              <rect y="16" width="20" height="2" rx="1"></rect>
+                          </svg>
+                      </button>
+      
+                      <!-- Mobile navigation -->
+                      <nav id="mobile-nav" class="cbvce cml7t cpjek cgi3a ca5ue chez1 csm51 c1tcw ca0gw ccxsu ccyhi" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak="">
+                          <ul class="c3d7q cy8oh c8nst coow7 cn544 ccyhi">
+                              <li>
+                                  <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="about.html">About</a>
+                              </li>
+                              <li>
+                                  <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="integrations.html">Integrations</a>
+                              </li>
+                              <li>
+                                  <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="pricing.html">Pricing</a>
+                              </li>
+                              <li>
+                                  <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="customers.html">Customers</a>
+                              </li>
+                              <li>
+                                  <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="changelog.html">Changelog</a>
+                              </li>
+                          </ul>
+                      </nav>
+      
+                  </div>
+      
+              </div>
+          </div>
+      </header>

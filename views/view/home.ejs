@@ -44,6 +44,24 @@
             }
         }
 
+        .IndexStats_index-stats__2PZZD {
+            position: relative;
+            overflow: hidden;
+            padding: 125px 0;
+        }
+
+        .IndexStats_index-stats__glow-lines__mHtu7 {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+        }
+
+        .IndexStats_index-stats__glow-lines__mHtu7 img {
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+
         .IndexHero_index-hero__ring--small__5BG8i {
             position: absolute;
             z-index: -1;
@@ -104,6 +122,112 @@
             letter-spacing: -.0425rem;
             background-color: inherit;
         }
+
+        .row {
+            --bs-gutter-x: 40px;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(-1*var(--bs-gutter-y));
+            margin-right: calc(-.5*var(--bs-gutter-x));
+            margin-left: calc(-.5*var(--bs-gutter-x));
+        }
+
+        .h4,
+        h4 {
+            font-size: 2.625rem;
+            line-height: 110%;
+            letter-spacing: -1px;
+        }
+
+        .IndexStats_index-stats__heading__4V50Y {
+            text-wrap: balance;
+        }
+
+        @media (min-width: 992px) {
+            .w-lg-75 {
+                width: 75% !important;
+            }
+        }
+
+        .row>* {
+            flex-shrink: 0;
+            width: 100%;
+            max-width: 100%;
+            padding-right: calc(var(--bs-gutter-x)*.5);
+            padding-left: calc(var(--bs-gutter-x)*.5);
+            margin-top: var(--bs-gutter-y);
+        }
+
+        .IndexStats_index-stats__color--purple__1dqEc {
+            background: linear-gradient(101.11deg, #f087ff 14.47%, #6e1fce 39.43%, rgba(110, 31, 206, .1) 76.77%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @media (min-width: 768px) {
+            .IndexStats_index-stats__color__F8ess {
+                font-size: 110px;
+            }
+        }
+
+        .IndexStats_index-stats__color__F8ess {
+            font-weight: 300;
+            font-size: 70px;
+            line-height: 120%;
+        }
+
+        .subdued {
+            color: #c4c4c4;
+        }
+
+        .IndexStats_index-stats__color--blue__ROe6J {
+            background: linear-gradient(100.93deg, #1fcff1 15.61%, #234cb6 41.38%, rgba(35, 76, 182, .1) 79.94%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @media (min-width: 768px) {
+            .IndexStats_index-stats__color__F8ess {
+                font-size: 110px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .col-lg-6 {
+                flex: 0 0 auto;
+                width: 50%;
+            }
+        }
+
+        .IndexStats_index-stats__color--green__muO5N {
+            background: linear-gradient(97.65deg, #19fb9b 11.36%, #199890 54.3%, #005f59 100.78%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @media (min-width: 1200px) {
+
+            .container,
+            .container-xl {
+                max-width: 1140px;
+            }
+        }
+
+        .container,
+        .container-fluid,
+        .container-xl {
+            --bs-gutter-x: 40px;
+            --bs-gutter-y: 0;
+            width: 100%;
+            padding-right: calc(var(--bs-gutter-x)*.5);
+            padding-left: calc(var(--bs-gutter-x)*.5);
+            margin-right: auto;
+            margin-left: auto;
+        }
     </style>
 
     <!-- Hero Section with Background Image -->
@@ -115,20 +239,21 @@
                     data-nimg="fill"
                     style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                     sizes="100vw"
-                    srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=3840&amp;q=75 3840w"
-                    src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=3840&amp;q=75">
+                    srcset="https://solana.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=3840&amp;q=75 3840w"
+                    src="https://solana.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=3840&amp;q=75">
             </div>
             <div class="IndexHero_index-hero__ring--large__3NbbP"><img alt="" fetchpriority="high" decoding="async"
                     data-nimg="fill"
                     style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                     sizes="100vw"
-                    srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=3840&amp;q=75 3840w"
-                    src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=3840&amp;q=75">
+                    srcset="https://solana.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=3840&amp;q=75 3840w"
+                    src="https://solana.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolana-ring.630baeb2.jpg&amp;w=3840&amp;q=75">
             </div>
             <h1 class="h2 text-white mb-4">Powerful for developers.<br class="d-block">Fast for everyone.</h1>
             <div class="row">
                 <div class="col-md-7 mx-auto">
-                    <p class="my-6 text-lg">Make blockchain accessible to everyone. Stack provides experiences suitable for both
+                    <p class="my-6 text-lg">Make blockchain accessible to everyone. Stack provides experiences suitable
+                        for both
                         power users and new consumers, as well as everyone in between.</p>
                 </div>
             </div><a class="sc-a1e69b3b-0 ieepnI 
@@ -160,6 +285,106 @@
 
 
     <!-- Content Cards-->
-<section class="community">
-    <div class="container"><div class="row pb-10"><div class="col-lg-6"><h2 class="h4 w-lg-75 mt-0 mt-lg-10 mb-8 mb-lg-0 IndexStats_index-stats__heading__4V50Y">Join a community of millions.</h2></div><div class="col-lg-6"><div class="mb-8"><div class="m-0 IndexStats_index-stats__color__F8ess IndexStats_index-stats__color--purple__1dqEc">11.5M+</div><div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">Active accounts</div></div><div class="mb-8"><div class="m-0 IndexStats_index-stats__color__F8ess IndexStats_index-stats__color--blue__ROe6J">21.9M</div><div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">NFTs minted</div></div><div><div class="m-0 IndexStats_index-stats__color__F8ess IndexStats_index-stats__color--green__muO5N">$0.00025</div><div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">Average cost per transaction</div></div></div></div><div class="row pt-9 mt-9"><div class="col-lg-4"><div class="mb-8 mb-lg-0"><h2 class="h4 IndexStats_index-stats__heading__4V50Y">Made for mass adoption.</h2><div class="smaller text-uppercase subdued IndexStats_index-stats__live__8xU7q IndexStats_index-stats__ff-mono__FXeBH">Live data</div></div></div><div class="col-lg-8"><div class="row"><div class="col-md-6 mb-2 undefined"><div class="p-6 IndexStats_index-stats__card__KX4VC"><h3 class="h5 IndexStats_index-stats__card__title__km6lq" style="border-color:#1FCFF1">Fast</h3><p class="small subdued">Don’t keep your users waiting. Solana has block times of 400 milliseconds — and as hardware gets faster, so will the network.</p><div class="mt-6"><div class="h5 fw-normal IndexStats_index-stats__live__8xU7q">3,130</div><div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">Transactions per second</div></div></div></div><div class="col-md-6 mb-2 mt-lg-n10"><div class="p-6 IndexStats_index-stats__card__KX4VC"><h3 class="h5 IndexStats_index-stats__card__title__km6lq" style="border-color:#FFD512">Decentralized</h3><p class="small subdued">The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.</p><div class="mt-6"><div class="h5 fw-normal IndexStats_index-stats__live__8xU7q">1,630</div><div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">Validator nodes</div></div></div></div><div class="col-md-6 mb-2 undefined"><div class="p-6 IndexStats_index-stats__card__KX4VC"><h3 class="h5 IndexStats_index-stats__card__title__km6lq" style="border-color:#9945FF">Scalable</h3><p class="small subdued">Get big, quick. Solana is made to handle thousands of transactions per second, and fees for both developers and users remain less than $0.0025.</p><div class="mt-6"><div class="h5 fw-normal IndexStats_index-stats__live__8xU7q"><span>269,695,275,743</span></div><div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">Total transactions</div></div></div></div><div class="col-md-6 mb-2 mt-lg-n8"><div class="p-6 IndexStats_index-stats__card__KX4VC"><h3 class="h5 IndexStats_index-stats__card__title__km6lq" style="border-color:#19FB9B">Energy Efficient</h3><p class="small subdued">Solana’s proof of stake network and other innovations minimize its impact on the <a class="" href="/environment">environment</a>. Each Solana transaction uses about the same energy as a few Google searches.</p><div class="mt-6"><div class="h5 fw-normal" style="line-height:1">0%</div><div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">Net carbon impact</div></div></div></div></div></div></div></div>
-</section>
+    <section class="community bg-black">
+        <div class="container">
+            <div class="row pb-10">
+                <div class="col-lg-6">
+                    <h2 class="h4 w-lg-75 mt-0 mt-lg-10 text-white mb-8 mb-lg-0 IndexStats_index-stats__heading__4V50Y">Join a
+                        community of millions.</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mb-8">
+                        <div
+                            class="m-0 IndexStats_index-stats__color__F8ess IndexStats_index-stats__color--purple__1dqEc">
+                            11.5M+</div>
+                        <div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">Active
+                            accounts</div>
+                    </div>
+                    <div class="mb-8">
+                        <div
+                            class="m-0 IndexStats_index-stats__color__F8ess IndexStats_index-stats__color--blue__ROe6J">
+                            21.9M</div>
+                        <div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">NFTs minted
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            class="m-0 IndexStats_index-stats__color__F8ess IndexStats_index-stats__color--green__muO5N">
+                            $0.00025</div>
+                        <div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">Average cost
+                            per transaction</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row hidden pt-9 mt-9">
+                <div class="col-lg-4">
+                    <div class="mb-8 mb-lg-0">
+                        <h2 class="h4 IndexStats_index-stats__heading__4V50Y">Made for mass adoption.</h2>
+                        <div
+                            class="smaller text-uppercase subdued IndexStats_index-stats__live__8xU7q IndexStats_index-stats__ff-mono__FXeBH">
+                            Live data</div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6 mb-2 undefined">
+                            <div class="p-6 IndexStats_index-stats__card__KX4VC">
+                                <h3 class="h5 IndexStats_index-stats__card__title__km6lq" style="border-color:#1FCFF1">
+                                    Fast</h3>
+                                <p class="small subdued">Don’t keep your users waiting. Solana has block times of 400
+                                    milliseconds — and as hardware gets faster, so will the network.</p>
+                                <div class="mt-6">
+                                    <div class="h5 fw-normal IndexStats_index-stats__live__8xU7q">3,130</div>
+                                    <div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">
+                                        Transactions per second</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2 mt-lg-n10">
+                            <div class="p-6 IndexStats_index-stats__card__KX4VC">
+                                <h3 class="h5 IndexStats_index-stats__card__title__km6lq" style="border-color:#FFD512">
+                                    Decentralized</h3>
+                                <p class="small subdued">The Solana network is validated by thousands of nodes that
+                                    operate independently of each other, ensuring your data remains secure and
+                                    censorship resistant.</p>
+                                <div class="mt-6">
+                                    <div class="h5 fw-normal IndexStats_index-stats__live__8xU7q">1,630</div>
+                                    <div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">
+                                        Validator nodes</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2 undefined">
+                            <div class="p-6 IndexStats_index-stats__card__KX4VC">
+                                <h3 class="h5 IndexStats_index-stats__card__title__km6lq" style="border-color:#9945FF">
+                                    Scalable</h3>
+                                <p class="small subdued">Get big, quick. Solana is made to handle thousands of
+                                    transactions per second, and fees for both developers and users remain less than
+                                    $0.0025.</p>
+                                <div class="mt-6">
+                                    <div class="h5 fw-normal IndexStats_index-stats__live__8xU7q">
+                                        <span>269,695,275,743</span></div>
+                                    <div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">
+                                        Total transactions</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2 mt-lg-n8">
+                            <div class="p-6 IndexStats_index-stats__card__KX4VC">
+                                <h3 class="h5 IndexStats_index-stats__card__title__km6lq" style="border-color:#19FB9B">
+                                    Energy Efficient</h3>
+                                <p class="small subdued">Solana’s proof of stake network and other innovations minimize
+                                    its impact on the <a class="" href="/environment">environment</a>. Each Solana
+                                    transaction uses about the same energy as a few Google searches.</p>
+                                <div class="mt-6">
+                                    <div class="h5 fw-normal" style="line-height:1">0%</div>
+                                    <div class="smaller text-uppercase subdued IndexStats_index-stats__ff-mono__FXeBH">
+                                        Net carbon impact</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

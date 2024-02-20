@@ -64,7 +64,10 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.render("view/home.ejs");
+  res.render("view/index.ejs");
+});
+app.get("/home", (req, res) => {
+  res.render("view/hpme.ejs");
 });
 
 app.get("/atom.xml", async (req, res) => {
