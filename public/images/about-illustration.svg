@@ -13,14 +13,14 @@
       <feGaussianBlur in="SourceGraphic" stdDeviation="7"/>
     </filter>
     <linearGradient id="a" x1="50%" x2="50%" y1="7.644%" y2="100%">
-      <stop offset="0%" stop-color="#E9D5FF"/>
-      <stop offset="31.441%" stop-color="#73cdd7"/>
-      <stop offset="100%" stop-color="#73cdd7"/>
+      <stop offset="0%" stop-color="#ffff"/>
+      <stop offset="31.441%" stop-color="#f89513"/>
+      <stop offset="100%" stop-color="#f89513"/>
     </linearGradient>
     <linearGradient id="d" x1="50%" x2="50%" y1="7.644%" y2="97.631%">
-      <stop offset="0%" stop-color="#E9D5FF"/>
-      <stop offset="31.441%" stop-color="#73cdd7"/>
-      <stop offset="100%" stop-color="#73cdd7"/>
+      <stop offset="0%" stop-color="#ffff"/>
+      <stop offset="31.441%" stop-color="#f89513"/>
+      <stop offset="100%" stop-color="#f89513"/>
     </linearGradient>
   </defs>
   <g fill="none" fill-rule="nonzero">

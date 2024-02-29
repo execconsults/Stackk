@@ -205,6 +205,7 @@ app.get("/about-us", (req, res) => {
   res.render("view/shop.ejs");
 });
 
+
 app.get("/service", (req, res) => {
 
   res.render("view/service.ejs");
@@ -213,12 +214,19 @@ app.get("/resources", (req, res) => {
   
   res.render("view/resources.ejs");
 });
-app.get("/resources", (req, res) => {
+app.get("/res", (req, res) => {
 
-  res.render("view/resources.ejs");
+  res.render("view/integrations-single.ejs");
+});
+app.get("/int", (req, res) => {
+
+  res.render("view/integrations.ejs");
 });
 app.get("/aboutus", (req, res) => {
   res.render("view/aboutus.ejs");
+});
+app.get("/about", (req, res) => {
+  res.render("view/about.ejs");
 });
 app.get("/shop", (req, res) => {
   res.render("view/shop.ejs");
@@ -234,6 +242,7 @@ app.get("/signup", (req, res) => {
 app.get("/privacy", (req, res) => {
   res.render("view/privacy.ejs");
 });
+
 
 app.get("/terms", (req, res) => {
   res.render("view/terms.ejs");
