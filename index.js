@@ -200,11 +200,6 @@ app.get("/real-estate-law", (req, res) => {
   });
 });
 
-app.get("/about-us", (req, res) => {
-
-  res.render("view/shop.ejs");
-});
-
 
 app.get("/service", (req, res) => {
 
@@ -220,10 +215,10 @@ app.get("/res", (req, res) => {
 });
 app.get("/int", (req, res) => {
 
-  res.render("view/integrations.ejs");
+  res.render("view/customer.ejs");
 });
 app.get("/aboutus", (req, res) => {
-  res.render("view/aboutus.ejs");
+  res.render("view/about.ejs");
 });
 app.get("/about", (req, res) => {
   res.render("view/about.ejs");
@@ -235,8 +230,8 @@ app.get("/signin", (req, res) => {
   res.render("view/signin.ejs");
 });
 
-app.get("/signup", (req, res) => {
-  res.render("view/signup.ejs");
+app.get("/contact", (req, res) => {
+  res.render("view/contact.ejs");
 });
 
 app.get("/privacy", (req, res) => {

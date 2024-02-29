@@ -2769,7 +2769,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .cw2sl {
     --tw-bg-opacity: 1;
-    background-color: rgb(3 94 252/var(--tw-bg-opacity))
+    background-color: rgb(10 79 252 / var(--tw-bg-opacity));
 }
 
 .cso1u {
@@ -3766,7 +3766,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .cnna9::before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(3 94 252/var(--tw-bg-opacity))
+    background-color: rgb(10 79 252 / var(--tw-bg-opacity));
 }
 
 .cn2xv::before {
@@ -4133,7 +4133,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .ckbyi:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(147 51 234/var(--tw-bg-opacity))
+    background-color: rgb(10 79 252 / var(--tw-bg-opacity));
 }
 
 .cl7hu:hover {
@@ -4338,7 +4338,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .cpbdd.swiper-slide-active .c9fo8 {
     --tw-bg-opacity: 1;
-    background-color: rgb(3 94 252/var(--tw-bg-opacity))
+    background-color: rgb(10 79 252 / var(--tw-bg-opacity));
 }
 
 .cpbdd.swiper-slide-active .c4iwi {
@@ -4347,7 +4347,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .cis27:checked~.c3xrc {
     --tw-bg-opacity: 1;
-    background-color: rgb(3 94 252/var(--tw-bg-opacity))
+    background-color: rgb(10 79 252 / var(--tw-bg-opacity));
 }
 
 .cis27:checked~.c50jj::before {
