@@ -243,6 +243,12 @@ app.get("/terms", (req, res) => {
   res.render("view/terms.ejs");
 });
 
+
+//service
+app.get('/futuretrading', (req, res) => {
+  res.render('view/futuretrading.ejs')
+})
+
 // 404 page not found route
 app.all("*", (req, res, next) => {
   next(new ExpressError("Page Not Found", 404));
