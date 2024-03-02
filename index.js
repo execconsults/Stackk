@@ -229,7 +229,15 @@ app.get("/shop", (req, res) => {
 app.get("/signin", (req, res) => {
   res.render("view/signin.ejs");
 });
+app.get('/basicourse', (req, res) => {
+  res.render('view/basicourse.ejs')
+})
 
+
+//service
+app.get('/futuretrading', (req, res) => {
+  res.render('view/futuretrading.ejs')
+})
 app.get("/contact", (req, res) => {
   res.render("view/contact.ejs");
 });
@@ -243,11 +251,6 @@ app.get("/terms", (req, res) => {
   res.render("view/terms.ejs");
 });
 
-
-//service
-app.get('/futuretrading', (req, res) => {
-  res.render('view/futuretrading.ejs')
-})
 
 // 404 page not found route
 app.all("*", (req, res, next) => {

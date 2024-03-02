@@ -2796,7 +2796,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .cs2bp {
     --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42/var(--tw-bg-opacity))
+    background-color:#353f57
 }
 
 .c4mow {
@@ -4046,7 +4046,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .cqrpr::after {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42/var(--tw-bg-opacity))
+    background-color:#353f57
 }
 
 .cg2d9::after {
