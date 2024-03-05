@@ -245,7 +245,9 @@ app.get("/contact", (req, res) => {
 app.get("/privacy", (req, res) => {
   res.render("view/privacy.ejs");
 });
-
+app.get('/tradingcourse', (req, res) => {
+  res.render('view/tradingcourse.ejs')
+})
 
 app.get("/terms", (req, res) => {
   res.render("view/terms.ejs");
