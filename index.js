@@ -232,7 +232,15 @@ app.get("/signin", (req, res) => {
 app.get('/basicourse', (req, res) => {
   res.render('view/basicourse.ejs')
 })
-
+app.get('/terms', (req, res) => {
+  res.render('view/terms.ejs')
+})
+app.get('/privacy', (req, res) => {
+  res.render('view/privacy.ejs')
+})
+app.get('/refund', (req, res) => {
+  res.render('view/refund.ejs')
+})
 
 //service
 app.get('/futuretrading', (req, res) => {
