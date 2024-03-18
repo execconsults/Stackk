@@ -241,6 +241,9 @@ app.get('/privacy', (req, res) => {
 app.get('/refund', (req, res) => {
   res.render('view/refund.ejs')
 })
+app.get('/livetradingcourse', (req, res) => {
+  res.render('view/livetradingcourse.ejs')
+})
 
 //service
 app.get('/futuretrading', (req, res) => {
